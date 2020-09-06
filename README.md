@@ -57,10 +57,15 @@ unzip data/data48884/data.zip -d data/celeba_hq
 # 复制到对应的位置
 cp -rf data/celeba_hq/data/celeba_hq data/
 ```
-这个 LayerList 有bug, 提交了两次pr[#26793](https://github.com/PaddlePaddle/Paddle/pull/26793)和[#26790](https://github.com/PaddlePaddle/Paddle/pull/26790), 一次[issue](https://github.com/PaddlePaddle/Paddle/issues/26795)
+
+这个 `LayerList` 有bug, 提交了两次pr[#26793](https://github.com/PaddlePaddle/Paddle/pull/26793)和[#26790](https://github.com/PaddlePaddle/Paddle/pull/26790), 一次[issue](https://github.com/PaddlePaddle/Paddle/issues/26795)
 
 ## **3.Notice**
 
+我本地环境是 `paddlepaddle1.8.4` AI Studio目前不支持，需要手动安装
+```shell
+python -m pip install paddlepaddle-gpu==1.8.4.post107 -i https://mirror.baidu.com/pypi/simple
+```
 
 ## **4.亿点心得**
 
