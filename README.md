@@ -42,7 +42,7 @@
 
 `core/wing_.py` 为空, 没有使用
 
-`data`目录和`expr`目录不再赘述
+`data`目录、`metrics`目录和和`expr`目录不再赘述
 
 ## **2.Readme：运行过程**
 
