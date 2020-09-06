@@ -65,8 +65,12 @@ cp -rf data/celeba_hq/data/celeba_hq data/
 我本地环境是 `paddlepaddle1.8.4` AI Studio目前不支持，需要手动安装
 ```shell
 python -m pip install paddlepaddle-gpu==1.8.4.post107 -i https://mirror.baidu.com/pypi/simple
+
+# 同时需要pip安装munch
+pip install munch -i https://mirror.baidu.com/pypi/simple
 ```
 
 ## **4.亿点心得**
 
 距离论文复现结束还有50分钟，我想留下一下话与诸君共勉
+
